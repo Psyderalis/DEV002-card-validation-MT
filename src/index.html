@@ -2,12 +2,52 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
+    <title>Validador TC</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+    <header>
+    <h1>Validador de Tarjeta de Crédito</h1>
+  </header>
+  <main>
+<!-- Presentación-->
+<section class="presentacion">
+  <div id="presentacion">
+   <article>
+    <p id="intro">Aquí podrás indentificar si el número de una tarjeta de crédito es válido de forma segura.</p>
+  </article>
+    <article>
+      <h4 id="pregunta">¿Por qué indetificar el número de una tarjeta?</h4>
+    <p id="respuesta">Ya sea si es usuario de la tarjeta, o si recibirá un pago con una, debe asegurarse que la tarjeta es real y válida antes de cualquier transacción.</p>
+  </article>
+</div>
+</section>
+
+<!--Aplicación-->
+
+<section class="aplicacion">
+    <div id="ejemplo">
+  <p id="instruccion">Ingresa el número de 16 dígitos.</p>
+    <img id="flecha" src="img/flecha.jpg" alt="flecha hacia la derecha">
+    <img id="ejemplotc" src="img/TC ejemplo.jpg" alt="ejemplo tarjeta de crédito">
+  </div>
+
+<div id="formulario">
+  <form action="" id="tcForm" autocomplete="off">
+   <label for="tcNumber"></label>
+    <input type="text" id="tcNumber" name="" value="" placeholder="Ingresa el número" 
+    required pattern="[0-9]{16}" size="16" > 
+    <input type="submit" id="validar" name="" value="VALIDAR">
+    
+    <p>Marca:</p>
+    <p>Número</p>
+  </output>
+    <button type="reset">Limpiar datos</button>
+  </form>
+</div>
+</section>
+
+    </main>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>

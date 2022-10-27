@@ -1,0 +1,57 @@
+header {
+    display: flex;
+    background-color: rgba(22, 131, 166, 1);
+    height: 140px;
+    margin: 0 auto;
+    border: 0%;
+    align-items: center;
+}
+h1 {
+margin: 50px auto 30px;
+text-align: center;
+font-weight: lighter;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: rgba(255, 255, 251, 1);
+text-shadow: 0px 3px 3px rgb(75, 72, 72)  ;
+
+}
+#presentacion {
+display: flex;
+background-color:rgba(226, 227, 162, 0.34);
+height: 150px;
+margin: 50px 0px;
+}
+article {
+display: flex
+width: 360px;
+border: 1px solid;
+border-color: rgba(231, 196, 72, 0.37);
+}
+#intro{
+text-align: center;
+}
+
+#pregunta{
+
+}
+#respuesta{
+
+}
+#ejemplo {
+    display: flex;
+    margin: 20px auto;
+}
+#instruccion{
+
+}
+#flecha{
+
+}
+#ejemplotc{
+
+}
+#formulario {
+    height: 330px;
+    margin: 0 auto;
+    background-color: rgba(22, 131, 166, 0.12);
+}
