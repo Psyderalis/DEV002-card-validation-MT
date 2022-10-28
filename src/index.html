@@ -29,19 +29,28 @@
     <div id="ejemplo">
   <p id="instruccion">Ingresa el número de 16 dígitos.</p>
     <img id="flecha" src="img/flecha.jpg" alt="flecha hacia la derecha">
-    <img id="ejemplotc" src="img/TC ejemplo.jpg" alt="ejemplo tarjeta de crédito">
+    <img id="ccEjemplo" src="img/TC ejemplo.jpg" alt="ejemplo tarjeta de crédito">
   </div>
 
 <div id="formulario">
-  <form action="" id="tcForm" autocomplete="off">
-   <label for="tcNumber"></label>
-    <input type="text" id="tcNumber" name="" value="" placeholder="Ingresa el número" 
+  <form action="" id="ccForm" autocomplete="off">
+    <input type="text" id="ccNumber" name="" value="" placeholder="Ingresa el número" 
     required pattern="[0-9]{16}" size="16" > 
-    <input type="submit" id="validar" name="" value="VALIDAR">
+    <input type="button" id="check" value="VALIDAR" onclick = "checkCC()">
     
+    <div class="mb-3">
+      <textarea
+        disabled="true"
+        class="form-control"
+        id="ccValidator"
+        rows="3"
+        style="font-size: 25px"
+      ></textarea>
+    </div>
+
     <p>Marca:</p>
     <p>Número</p>
-  </output>
+
     <button type="reset">Limpiar datos</button>
   </form>
 </div>

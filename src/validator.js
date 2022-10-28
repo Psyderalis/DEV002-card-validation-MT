@@ -1,31 +1,22 @@
-function reverseNumber() {
+//ALGORITMO DE LUHN
 
+//se aplica algoritmo a ccNumber mediante función flecha
+const luhnAlgorithm = (ccNumber) => { 
+const lenght = ccNumber.lenght; //longitud string;
+let addDigits = 0;
+  //recorrer el número inversamente saltando en posiciones pares (14, 12, 10, 8, 6, 4, 2, 0)
+  for(let i = lenght - 2; i = 0; i -= 2) {
+    let currentDigit = parseInt(ccNumber[i]); //obtener valor número del dígito actual(string).
+    const doubleDigit = currentDigit * 2; // duplicar el dígito actual.
+    if (doubleDigit >9){
+      let firstNumber = parseInt(doubleDigit / 10); //obtener el primer dígito del "doble dígito".
+      let trailingNumber = doubleDigit % 10; //obtener último dígito del "doble dígito".
+      currentDigit = firstNumber + trailingNumber; //sumar los dos dígitos anteriores
+    }
+  addDigits += currentDigit; //
+  }
+  return (addDigits % 10) === 0;
 }
-
-function isValid(){
-
-}
-
-function obtenerCCNumber() {
-  let creditCardNumber = document.getElementById("tcNumber").value;
-  console.log("tcNumber");
-} 
-
-//función para validar
-//creditCardNumber.addEventListener("submit", SubmitEvent);
-
-
-
-
-//console.log(creditCardNumber);
-
-
-const validator = {
-  isValid: isValid
-};
-
-
-export default validator;
 
 
 
