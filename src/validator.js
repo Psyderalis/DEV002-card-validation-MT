@@ -1,22 +1,35 @@
-//ALGORITMO DE LUHN
+const validator = {
+  isValid: (ccNumber) => {
+    const length = ccNumber.length; //longitud string;
+    let addDigits = 0;
 
-//se aplica algoritmo a ccNumber mediante función flecha
-const luhnAlgorithm = (ccNumber) => { 
-const lenght = ccNumber.lenght; //longitud string;
-let addDigits = 0;
-  //recorrer el número inversamente saltando en posiciones pares (14, 12, 10, 8, 6, 4, 2, 0)
-  for(let i = lenght - 2; i = 0; i -= 2) {
-    let currentDigit = parseInt(ccNumber[i]); //obtener valor número del dígito actual(string).
-    const doubleDigit = currentDigit * 2; // duplicar el dígito actual.
-    if (doubleDigit >9){
-      let firstNumber = parseInt(doubleDigit / 10); //obtener el primer dígito del "doble dígito".
-      let trailingNumber = doubleDigit % 10; //obtener último dígito del "doble dígito".
-      currentDigit = firstNumber + trailingNumber; //sumar los dos dígitos anteriores
+    for (let i = length - 1; i >= 0; i--) //recorrer todo el número de forma invertida
+    {
+      let currentDigit = parseInt(ccNumber[i]);
+      if (i % 2 == 0) // tomar las posiciones pares
+      {
+        if ((currentDigit *= 2) > 9) //duplicar los valores de las posiciones pares e identificar si son de uno o dos dígitos
+        {
+          // Separar los valores de dos dígitos
+          let firstNumber = parseInt(currentDigit / 10); //identifica el primer dígito del valor, tomando el entero
+          let trailingNumber = currentDigit % 10; //identifica el último dígito del valor
+
+          // sumar los dígitos del valor
+          currentDigit = firstNumber + trailingNumber;
+        }
+      }
+      console.log(currentDigit)
+      addDigits += currentDigit; // sumar todos los números de la tarjeta
     }
-  addDigits += currentDigit; //
+    const resultado = (addDigits % 10) === 0;
+    console.log(resultado, addDigits);
+    return resultado;
   }
-  return (addDigits % 10) === 0;
-}
+};
+
+export default validator;
+
+
 
 
 
