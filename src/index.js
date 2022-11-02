@@ -30,6 +30,7 @@ const luhnAlgorithm = (ccNumber) => {
 const checkCC = () => {
     const elCCNumber = document.getElementById("ccNumber");
     const elCCValidation = document.getElementById("ccValidator");
+    let message = "";
    
     // Calls the Luhn algorithm. Fails if the Luhn algorithm returns false.
     if( luhnAlgorithm(elCCNumber.value) )
