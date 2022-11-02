@@ -18,12 +18,22 @@ const validator = {
           currentDigit = firstNumber + trailingNumber;
         }
       }
-      console.log(currentDigit)
       addDigits += currentDigit; // sumar todos los números de la tarjeta
     }
     const resultado = (addDigits % 10) === 0;
     console.log(resultado, addDigits);
     return resultado;
+  },
+  maskify: (ccNumber) => {
+    let myArray = []
+    for (let i = 0; i < ccNumber.length; i++) {
+      if (i < ccNumber.length - 4) {
+        myArray.push ("#");
+      } else {
+        myArray.push (ccNumber[i]);
+      }
+    }
+    return myArray.join("");
   }
 };
 
