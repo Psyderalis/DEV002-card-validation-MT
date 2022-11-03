@@ -16,7 +16,7 @@ Este proyecto consistió en crear una aplicación web que le permita a un usuari
 
 ## 2. Vista final del validador
 
-<img src="Otras/prototipo%20final.jpg" width=100px >
+<img src="Otras/prototipo%20final.jpg" width=300 >
 
 ## 3. Investigación UX
   
