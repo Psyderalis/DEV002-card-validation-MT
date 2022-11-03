@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Validador TC</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <div id="container0">
+
+      <h1>Validador de Tarjeta de Crédito</h1>
+
+    </div>
+  </header>
+  <main>
+    <!-- Presentación-->
+    <section id="presentación">
+      <div id="container1">
+        <div class="texto">
+          <p id="intro">Aquí podrás indentificar si el número de una tarjeta de crédito es válido de forma segura.</p>
+        </div>
+        <div id="argumento" class="texto">
+          <p id="pregunta">¿Por qué indetificar el número de una tarjeta?</p>
+          <p id="respuesta">Ya sea si es usuario de la tarjeta, o si recibirá un pago con una, debe asegurarse que la
+            tarjeta es real y válida antes de cualquier transacción.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--Aplicación-->
+
+    <section id="aplicacion">
+
+      <div id="container2">
+        <img id="tc-ejemplo" src="img/tc ejemplo.jpg" alt="Ejemplo de tarjeta de crédito">
+      </div>
+
+      <div id="container3">
+        <form id="ccForm" autocomplete="off">
+          
+          <label for="ccNumber">Ingresa el número sin espacios:</label>
+          <input type="text" id="ccNumber" value="" placeholder="Ej: 1234567898765432" required
+            pattern="[0-9]{16}" maxlength="16">
+
+          <input type="submit" class="boton" id="check" value="VALIDAR">
+
+          <input type="text" id="ccValidator" disabled="true"  placeholder="Número Válido/Inválido">
+
+          <button type="reset" class="boton" id="recargar">Limpiar datos</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
+</html>
