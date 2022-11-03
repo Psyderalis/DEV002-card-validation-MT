@@ -34,6 +34,6 @@ Este proyecto consistió en crear una aplicación web que le permita a un usuari
   Ambas ideas me parecieron excelentes aportes para mi producto, por lo que quise incorporar las dos en un inicio, pero finalmente me decidí por omitir la marca de la tarjeta, ya que no me alcanzaría el tiempo y se alejaba un poco de mi objetivo principal.
 
 #### Imagen del prototipo final:
- <img src="OOtras/prototipo%20figma.jpg" width=500 >)
+ <img src="OOtras/prototipo%20figma.jpg" width=500 >
   
 ### END.
