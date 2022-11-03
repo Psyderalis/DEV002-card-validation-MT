@@ -20,7 +20,7 @@ Este proyecto consistió en crear una aplicación web que le permita a un usuari
 
 ## 3. Investigación UX
   
-#### Obejtivo y usuarios del producto: 
+#### Objetivo y usuarios del producto: 
   Validar el número de cualquier tarjeta de crédito, para cualquier usuario que desee saber si su tarjeta es válida.
 
 #### Importancia del producto: 
