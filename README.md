@@ -12,6 +12,8 @@
 
 Este proyecto consistió en crear una aplicación web que le permita a un usuario validar el número de una tarjeta de crédito, mediante el algoritmo de Luhn. Además, implementa una funcionalidad para ocultar todos los dígitos de la tarjeta, menos los últimos cuatro.
 
+![Algoritmo-Luhn](Otras/thumb.png)
+
 ## 2. Vista final del validador
 
 ![Vista-final-del-validador](Otras/prototipo%20final.jpg)
