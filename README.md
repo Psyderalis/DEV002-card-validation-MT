@@ -16,7 +16,7 @@ Este proyecto consistió en crear una aplicación web que le permita a un usuari
 
 ## 2. Vista final del validador
 
-<img src="Otras/prototipo%20final.jpg" width=300 >
+<img src="Otras/prototipo%20final.jpg" width=500 >
 
 ## 3. Investigación UX
   
@@ -28,12 +28,12 @@ Este proyecto consistió en crear una aplicación web que le permita a un usuari
   Este producto ofrece a cualquier usuario, que tiene dudas sobre su nueva tarjeta, la oportunidad de verificarla antes de utilizarla.
 
 #### Primer prototipo:
-  ![Prototipo-baja-fidelidad](Otras/Prototipo.jpg)
+<img src="Otras/Prototipo.jpg" width=500 >
 
   Luego de presentar mi prototipo a mi squad, me dieron las sugerencias de indicar en alguna parte de mi página que el sitio es seguro y, eventualmente, incorporar algo que haga mención a la marca de la tarjeta. 
   Ambas ideas me parecieron excelentes aportes para mi producto, por lo que quise incorporar las dos en un inicio, pero finalmente me decidí por omitir la marca de la tarjeta, ya que no me alcanzaría el tiempo y se alejaba un poco de mi objetivo principal.
 
 #### Imagen del prototipo final:
-  ![Prototipo-alta-fidelidad](Otras/prototipo%20figma.jpg)
+ <img src="OOtras/prototipo%20figma.jpg" width=500 >)
   
 ### END.
