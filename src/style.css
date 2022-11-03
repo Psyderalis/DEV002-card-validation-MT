@@ -12,6 +12,7 @@ body{
     background-color: rgba(22, 131, 166, 1);
     width: 750px;
     height: 140px;
+    box-shadow: 0px 3px 3px rgb(116, 118, 145);
 }
  h1 {
     font-weight: lighter;
@@ -111,4 +112,35 @@ label{
     font-family: monospace;
     font-size: 120%;
     color: rgba(245, 245, 245, 1);
+    box-shadow: 0px 2px 2px rgb(113, 126, 125);
+}
+#check:hover {
+    background-color: rgb(16, 168, 16);
+}
+#ccValidator {
+    margin: 10px;
+    width: 340px;
+    height: 50px;
+    background-color: rgb(236, 240, 206);
+    border: 0px;
+    border-radius: 3px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 150%;
+    color: black;
+}
+#recargar {
+    margin: 30px;
+    width: 150px;
+    height: 35px;
+    background-color: rgba(74, 70, 249, 0.7);
+    border: 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 100%;
+    box-shadow: 0px 2px 2px  rgb(116, 118, 145);
+}
+#recargar:hover {
+    background-color:cornflowerblue ;
 }

@@ -9,12 +9,12 @@ const checkCC = () => {
     let message = "";
 
     if (validator.isValid(elCCNumber.value))
-        message = "Número válido";
+        message = "Número VÁLIDO";
     else
-        message = "Número inválido";
+        message = "Número INVÁLIDO";
 
-    // Initialize the display textbox with content.
-    elCCValidation.textContent = message;
+    // Inicializar input con resultado
+    elCCValidation.value = message;
 };
 
 // Evento botón submit

@@ -42,14 +42,14 @@
         <form id="ccForm" autocomplete="off">
           
           <label for="ccNumber">Ingresa el número sin espacios:</label>
-          <input type="text" id="ccNumber" name="" value="" placeholder="Ej: 1234567898765432" required
+          <input type="text" id="ccNumber" value="" placeholder="Ej: 1234567898765432" required
             pattern="[0-9]{16}" maxlength="16">
 
-          <input type="submit" id="check" value="VALIDAR">
+          <input type="submit" class="boton" id="check" value="VALIDAR">
 
-          <textarea disabled="true" id="ccValidator" placeholder="Número Válido/Inválido"></textarea>
+          <input type="text" id="ccValidator" disabled="true"  placeholder="Número Válido/Inválido"></textarea>
 
-          <button type="reset">Limpiar datos</button>
+          <button type="reset" class="boton" id="recargar">Limpiar datos</button>
         </form>
       </div>
     </section>
