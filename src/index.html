@@ -10,9 +10,9 @@
 <body>
   <header>
     <div id="container0">
-      
-        <h1>Validador de Tarjeta de Crédito</h1>
-      
+
+      <h1>Validador de Tarjeta de Crédito</h1>
+
     </div>
   </header>
   <main>
@@ -40,16 +40,14 @@
 
       <div id="container3">
         <form id="ccForm" autocomplete="off">
-          <input type="text" id="ccNumber" name="" value="" placeholder="Ingresa el número" required pattern="[0-9]{16}"
-            size="16" maxlength="16">
+          
+          <label for="ccNumber">Ingresa el número sin espacios:</label>
+          <input type="text" id="ccNumber" name="" value="" placeholder="Ej: 1234567898765432" required
+            pattern="[0-9]{16}" maxlength="16">
+
           <input type="submit" id="check" value="VALIDAR">
 
-          <div class="mb-3">
-            <textarea disabled="true" class="form-control" id="ccValidator" rows="3" style="font-size: 25px"></textarea>
-          </div>
-
-          <p>Marca:</p>
-          <p>Número</p>
+          <textarea disabled="true" id="ccValidator" placeholder="Número Válido/Inválido"></textarea>
 
           <button type="reset">Limpiar datos</button>
         </form>
