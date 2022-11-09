@@ -35,5 +35,7 @@ Este proyecto consistió en crear una aplicación web que le permita a un usuari
 
 #### Imagen del prototipo final:
  <img src="Otras/prototipo%20figma.jpg" width=500 >
-  
+ 
+#### Página desplegada: https://psyderalis.github.io/DEV002-card-validation-MT/
+
 ### END.
